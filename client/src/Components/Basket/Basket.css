@@ -1,0 +1,24 @@
+.products-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-Top: 5%;
+}
+
+.total-price {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: rgb(253, 253, 255);
+  margin-top:  2%;
+  margin-bottom:  1%;
+
+} 

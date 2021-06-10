@@ -1,0 +1,49 @@
+.order-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #fdeb66;
+  border: 5px solid #2596ff;
+  border-radius: 20px;
+  width: 400px;
+  height: 300px;
+  margin: 5px;
+  padding: 20px;
+}
+
+.grid{
+  display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.grid>h4{
+  border: black solid 1px;
+  margin: 0;
+  padding: 5px;
+}
+.itemImage{
+height:150px;
+  margin: 10px;
+}
+
+.order-card image {
+  
+  width: 150px;
+  margin: 10px;
+}
+
+.delete-edit-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.add-item-btn img {
+  width: 50px;
+  margin: 10px;
+  cursor: pointer;
+}
+.qte-tab{
+justify-content: space-between;
+}
